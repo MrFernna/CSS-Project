@@ -1,0 +1,33 @@
+body{
+    font-family:'arial',sans-serif;
+}
+.carousel{
+    display:flex;
+    width:90%;
+    margin:100px auto;
+    gap:1em;
+    overflow-x: auto;
+}
+.carousel::-webkit-scrollbar{
+    display:none;
+}
+.group{
+    display:flex;
+    text-align: center;
+    gap:1em;
+    animation: spin 10s infinite linear;
+}
+.card{
+    flex: 0 0 5em;
+    background-color:cornflowerblue;
+    height:150px;
+    padding:6em;
+    color:white;
+    text-align: center;
+    align-content: center;
+    border-radius:8px;
+}
+@keyframes spin{
+    from {translate: 0;}
+    to {translate: -101%;}
+}
