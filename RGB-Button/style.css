@@ -1,0 +1,29 @@
+body{
+    overflow:hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background-color:rgba(14, 11, 11, 0.751);
+    font-family:"arial",sans-serif;
+}
+.btn-rgb{
+    padding:20px;
+    width:240px;
+    font-weight: 800;
+    border:none;
+    border-radius: 8px;
+    cursor:pointer;
+    background-color: #70c170;
+    color: white;
+    animation: rainbow 10s linear infinite;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.1);
+}
+@keyframes rainbow{
+    from{
+        filter:hue-rotate(0deg);
+    }
+    to{
+        filter:hue-rotate(360deg);
+    }
+}
