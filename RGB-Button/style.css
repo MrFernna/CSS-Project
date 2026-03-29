@@ -1,14 +1,12 @@
 body{
     overflow:hidden;
-    display:flex;
-    justify-content: center;
-    align-items: center;
     min-height:100vh;
     background-color:rgba(14, 11, 11, 0.751);
     font-family:"arial",sans-serif;
 }
 .btn-rgb{
     padding:20px;
+    position:absolute;
     width:240px;
     font-weight: 800;
     border:none;
