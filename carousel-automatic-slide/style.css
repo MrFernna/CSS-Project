@@ -43,5 +43,5 @@ body{
 /* Terapkan ke elemen */
 .button-sus {
     cursor: pointer;
-  animation: denyut 4s infinite ;
+  animation:  4s infinite ;
 }
