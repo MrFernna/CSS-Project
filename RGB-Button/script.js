@@ -19,6 +19,3 @@ btn.addEventListener('mouseover', () => {
 btn.addEventListener('click', () => {
     alert("Ngecit anjir!");
 });
-//absen
-//absen
-//absen
