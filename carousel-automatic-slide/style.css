@@ -31,17 +31,3 @@ body{
     from {translate: 0; }
     to {translate: -101%;}
 }
-/* Definisikan skenarionya */
-@keyframes denyut {
-  0% { transform: scale(1); box-shadow: 0 0 20px rgb(255, 0, 0); }
-  25% { transform: scale(1); box-shadow: 0 0 20px rgb(34, 196, 34); }
-  50% { transform: scale(1); box-shadow: 0 0 20px rgb(17, 180, 255); }
-  75% { transform: scale(1); box-shadow: 0 0 20px rgb(216, 255, 45); }
-  100% { transform: scale(1); box-shadow: 0 0 20px rgb(254, 47, 202); }
-}
-
-/* Terapkan ke elemen */
-.button-sus {
-    cursor: pointer;
-  animation:  4s infinite ;
-}
